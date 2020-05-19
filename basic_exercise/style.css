@@ -25,4 +25,10 @@ nav {
     text-decoration: none;
     color: lightgrey; }
 
+.banner {
+  width: 100%; }
+  .banner img {
+    width: 100%;
+    max-width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
