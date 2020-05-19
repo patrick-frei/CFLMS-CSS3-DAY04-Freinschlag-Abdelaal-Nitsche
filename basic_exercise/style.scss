@@ -1,5 +1,7 @@
 $navbar-color: #406EF4;
 $navbar-font: "calibri", sans-serif;
+$footer-color: #909299;
+
 body {
 	margin: 0;
 	padding: 0;
@@ -31,11 +33,29 @@ nav {
     	text-decoration: none;
     	color: lightgrey;
 	}
+
+
+	
 }
 
+h1 {
+	margin: 0;
+	padding: 0;
+}
+footer {
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		height: 12em;
+		background-color: $footer-color;
+	}
 .banner {
 		width:100%;
 		img {
+			display: flex;
 			width:100%;
 			max-width: 100%;
 		}
