@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  background-color: #406EF4;
+  padding: 10px;
+  display: flex;
+  font-family: "calibri", sans-serif; }
+  nav img {
+    height: 2em;
+    margin-right: 20px; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block; }
+  nav li {
+    display: inline-block; }
+  nav li:first-child a {
+    color: white; }
+  nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: lightgrey; }
+
+/*# sourceMappingURL=style.css.map */
