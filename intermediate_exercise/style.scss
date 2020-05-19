@@ -46,11 +46,55 @@ nav {
 }
 
 .middle {
-	width: 100%;
-	margin: 0;
+	width: 75%;
+	margin: 0 auto;
 	padding: 50px 0;
 	text-align: center;
 	background-color: white;
+
+}
+
+.everything {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.heading {
+	border-bottom: 2px solid black;
+
+}
+
+.links {
+	display: inline-block;
+	width: 45%;
+
+	img {
+		width: 100%;
+	}
+}
+
+.rechts
+{
+	display: inline-block;
+	width: 45%;
+}
+
+.rechtsoben {
+	display: inline-block;
+	width: 100%;
+	img {
+		width: 100%;
+	}
+
+}
+
+.rechtsunten {
+	display: inline-block;
+	width: 100%;
+	img {
+		width: 100%;
+
 }
 
 @media screen and (max-width: 480px) {
@@ -76,4 +120,4 @@ nav {
         background-color: darksalmon;
     }
 }
-
+}
